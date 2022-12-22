@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "maven+pro", sans-serif;
+}
+
+.header__img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.header__logo {
+    width: 100%;
+    max-width: 260px;
+}
+
+.header__carrito {
+    width: 100%;
+    max-width: 50px;
+}
+
+section.section__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 90vh;
+    overflow: auto;
+}
+
+h2.hero__text {
+    position: absolute;
+    font-family: "maven+pro", sans-serif;
+    font-size: 60px;
+}
+
+img#hero__img {
+    width: 100%;
+    overflow: auto;
+}
